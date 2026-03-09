@@ -39,8 +39,8 @@ Table des matières
     n'hésitez pas à nous contacter par email. Si besoin, nous mettons à disposition
     note clé PGP publique pour assurer la confidentialité de la communication.
 
-    email : service.securite@gip-inclusion.org
-    clé PGP : https://inclusion.gouv.fr/service.securite@gip-inclusion.org
+    email : security@inclusion.gouv.fr
+    clé PGP : https://inclusion.gouv.fr/.well-known/pdi-pgp.asc
 
 3. Temps de traitement
 
@@ -59,7 +59,7 @@ Table des matières
 
     $ curl -s http://example.inclusion.gouv.fr/.well-known/security.txt \
         | grep Policy
-    Policy: https://inclusion.gouv.fr/security-policy
+    Policy: https://inclusion.gouv.fr/.well-known/security-policy.txt
 
 5. Exclusions
 
@@ -141,7 +141,7 @@ Table of contents:
     hesitate to contact us via email. If needed, you can use our PGP public key to
     protect your communication.
 
-    email: service.securite@gip-inclusion.org
+    email: security@inclusion.gouv.fr
     PGP key: https://inclusion.gouv.fr/.well-known/pdi-pgp.asc
 
 
@@ -160,7 +160,7 @@ Table of contents:
 
     $ curl -s http://example.inclusion.gouv.fr/.well-known/security.txt \
         | grep Policy
-    Policy: https://inclusion.gouv.fr/security-policy
+    Policy: https://inclusion.gouv.fr/.well-known/security-policy.txt
 
 4. Exclusions
 
